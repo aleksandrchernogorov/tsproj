@@ -30,7 +30,10 @@ export class LinkedList {
 
     let length = 1;
     let node = this.head;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
     while (node.next) {
       length++;
       node = node.next;
@@ -41,12 +44,19 @@ export class LinkedList {
 
   at(index: number): Node {
     if (!this.head) {
+<<<<<<< HEAD
       throw new Error('Index out of bounds!');
+=======
+      throw new Error('Index out of bounds');
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
     }
 
     let counter = 0;
     let node: Node | null = this.head;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
     while (node) {
       if (counter === index) {
         return node;
@@ -56,7 +66,11 @@ export class LinkedList {
       node = node.next;
     }
 
+<<<<<<< HEAD
     throw new Error('Index out of bounds!');
+=======
+    throw new Error('Index out of bounds');
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
@@ -82,10 +96,17 @@ export class LinkedList {
     }
 
     let node: Node | null = this.head;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
     while (node) {
       console.log(node.data);
       node = node.next;
     }
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1df4919212019d35da68a173798542b16f3dc4f7
